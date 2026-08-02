@@ -1,9 +1,12 @@
 {
   "name": "legal-ease-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "LegalEase Backend API",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "echo \"No build step required — this is a pure Node.js/Express server\" && exit 0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
